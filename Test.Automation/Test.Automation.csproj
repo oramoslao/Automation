@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PageModels\JsAlertPaginaWeb.cs" />
+    <Compile Include="PageModels\ToastrPageWeb.cs" />
     <Compile Include="PruebaDeProdubancoEnWiki.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AutomationDataTest.cs" />

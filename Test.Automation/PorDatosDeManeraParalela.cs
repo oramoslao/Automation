@@ -6,7 +6,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Remote;
 
-[assembly: Parallelize(Workers = 10, Scope = ExecutionScope.MethodLevel)]
+//[assembly: Parallelize(Workers = 10, Scope = ExecutionScope.MethodLevel)]
 namespace Test.Automation
 {
     [TestClass]
