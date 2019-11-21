@@ -22,6 +22,7 @@ namespace Test.Automation
         public void Dispose()
         {
             this.driver.Close();
+            this.driver.Dispose();
         }
 
 

@@ -46,6 +46,7 @@ namespace Test.Automation
         public void EliminarElProcesoDelDriver()
         {
             this.webDriver.Close();
+            this.webDriver.Dispose();
         }
 
     }

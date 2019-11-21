@@ -23,6 +23,7 @@ namespace Test.Automation
         public void AssemblyCleanup()
         {
             this.driver.Close();
+            this.driver.Dispose();
         }
 
 
