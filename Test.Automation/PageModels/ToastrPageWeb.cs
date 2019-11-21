@@ -67,7 +67,7 @@ namespace Test.Automation.PageModels
 
         public void SelectToastTypeSuccess()
         {
-            GetToastTypeGroupRadios().FindElements(By.ClassName("radio")).Where(w => By.TagName()).First(el => el.GetAttribute("value='success'"));
+            //GetToastTypeGroupRadios().FindElements(By.ClassName("radio")).Where(w => By.TagName()).First(el => el.GetAttribute("value='success'"));
 
         }
         public void SelectToastTypeInfo() { }
@@ -147,7 +147,8 @@ namespace Test.Automation.PageModels
         
         private IWebElement GetToastTypeSuccess()
         {
-            return GetToastTypeGroupRadios().First(e => e.FindElement(By.TagName("input")).GetAttribute("value='success'"));
+            return null;
+            //return GetToastTypeGroupRadios().First(e => e.FindElement(By.TagName("input")).GetAttribute("value='success'"));
         }
 
 
