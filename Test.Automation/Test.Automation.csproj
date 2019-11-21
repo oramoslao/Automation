@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="InterbankElementTest.cs" />
+    <Compile Include="Specs\JoinnusPruebaParaPopularFormularioConDataSteps.cs" />
     <Compile Include="PageModels\JsAlertPaginaWeb.cs" />
     <Compile Include="PageModels\ToastrPageWeb.cs" />
     <Compile Include="Pages\AddRemoveElementsPage.cs" />
@@ -115,6 +116,7 @@
     <None Include="SpecRunTestProfile_2011_09.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Specs\Joinnus.feature" />
     <None Include="Specs\Wikipedia.feature" />
   </ItemGroup>
   <ItemGroup>

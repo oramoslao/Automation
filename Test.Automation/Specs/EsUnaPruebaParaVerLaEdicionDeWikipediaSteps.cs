@@ -24,7 +24,6 @@ namespace Test.Automation.Specs
         public void GivenHagoClickEnEditar()
         {
             driver.FindElement(By.XPath("/html/body/div[5]/div[1]/div[3]/div[1]/ul/li[2]/a")).Click();
-            //driver.FindElement(By.XPath("/html/body/div[9]/div/div[1]/div[2]/div[3]/div/span[2]/a")).Click();
         }
         
         [Then(@"El titulo de la pagina de edicion deberia incluir a la palabra ""(.*)""")]
@@ -34,7 +33,6 @@ namespace Test.Automation.Specs
 
             Assert.IsTrue(title.Text.Contains(p0));
 
-            driver.Close();
             driver.Dispose();
         }
     }

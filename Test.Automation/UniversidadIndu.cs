@@ -43,7 +43,6 @@ namespace Test.Automation
         [TestCleanup]
         public void EliminarElProcesoDelDriver()
         {
-            this.webDriver.Close();
             this.webDriver.Dispose();
         }
     }

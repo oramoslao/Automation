@@ -21,7 +21,6 @@ namespace Test.Automation
         [TestCleanup]
         public void Dispose()
         {
-            this.driver.Close();
             this.driver.Dispose();
         }
 

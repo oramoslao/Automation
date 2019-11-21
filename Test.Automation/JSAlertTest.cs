@@ -22,7 +22,6 @@ namespace Test.Automation
         [TestCleanup]
         public void AssemblyCleanup()
         {
-            this.driver.Close();
             this.driver.Dispose();
         }
 
